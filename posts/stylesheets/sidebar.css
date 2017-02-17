@@ -1,0 +1,90 @@
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  z-index: 1;
+  /*z-index перекрывает цитаты тоже*/
+  width: 300px;
+  opacity: 0.1;
+  /*Прозрачность опасити - применяется ко всему элементу и тексту внутри элемента. 100% = 1*/
+  transition: all .1s ease-out;
+
+
+}
+
+/*Заголовок при наведении курсора появляется (до этого сделали его прозрачным 0,1)*/
+.sidebar:hover {
+  opacity: 1;
+}
+
+.sidebar > ul {
+  position: absolute;
+  padding: 15px 30px;
+}
+
+.sidebar li {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0,0,0,.8);
+}
+
+.sidebar > ul > li:first-child {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sidebar > ul > li > ul {
+  padding-left: 10px;
+}
+
+.sidebar > ul > li > ul li {
+  color: rgba(0,0,0,.4);
+}
+
+
+
+@media all and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
+
+/*.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  width: 300px;
+  padding: 30px;
+  background: rgba(0, 0, 255, 0.1);
+  opacity: 0.5;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 10pt;
+
+}
+
+
+.sidebar ul {
+
+}
+
+.sidebar li {
+
+}
+
+.sidebar > ul > li {
+
+}
+
+.sidebar li > ul {
+
+}
+
+.sidebar ul > li > ul > li {
+
+}*/
