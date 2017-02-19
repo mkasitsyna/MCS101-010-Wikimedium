@@ -6,5 +6,7 @@
 @import 'layout.css';
 @import 'content.css';
 @import 'sidebar.css';
-/*@import 'sidebar2.css';*/
 @import 'menubar.css';
+@import 'posts.css';
+@import 'landing.css';
+@import 'ui.css';
