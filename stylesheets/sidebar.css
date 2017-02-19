@@ -7,6 +7,7 @@
   width: 300px;
   opacity: 0.1;
   /*Прозрачность опасити - применяется ко всему элементу и тексту внутри элемента. 100% = 1*/
+  -webkit-transition: all .1s ease-out;
   transition: all .1s ease-out;
 
 
